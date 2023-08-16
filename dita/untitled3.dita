@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="untitled3">
+    <title><b>DolphinDB简介</b></title>
+    <body>
+        <p>DolphinDB的主要功能与特性</p>
+        <section id="section_tfh_1tz_lyb">
+            <title>欢迎成为DolphinDB 的用户！</title>
+            <p>DolphinDB是一个速度极快的时序数据库和数据分析系统，可无限拓展。它具有内置的并行和分布式计算功能，可用于实时数据处理和多节点计算分析。</p>
+            <p>
+                <ul id="ul_syw_btz_lyb">
+                    <li>DolphinDB支持常用的数据结构，包括向量、矩阵、字典和数据表以及相应的操作和查询。它还提供了一种易于使用的脚本语言，方便用户以高速有效的方式开发自己的应用程序。在DolphinDB中，数据库和开发语言无缝集成，因此DolphinDB可达到毫秒级的响应速度，为实时应用程序提供最佳性能。 </li>
+                    <li>DolphinDB中的脚本语言与Python或R非常相似。如果您对Python或R有一些了解，那么您将会觉得DolphinDB脚本非常容易上手。</li>
+                    <li>DolphinDB还支持与标准SQL非常相似的SQL语法。</li>
+                    <li>DolphinDB是用C++编写的。DolphinDB提供C++, C#, Go, Java, JavaScript, JDBC, JSON,
+                        NodeJS, Python, R等API，方便用户与已有应用程序集成。</li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_pzx_2tz_lyb">
+            <title>高性能数据库</title>
+            <p>
+                <ul id="ul_gkl_3tz_lyb">
+                    <li>
+                        <p>高吞吐低延迟的列式内存引擎。</p>
+                    </li>
+                    <li>
+                        <p>列式混合引擎（基于内存和磁盘）给海量数据库提供了优越性能。</p>
+                    </li>
+                    <li>
+                        <p>灵活的分区方案：值分区、范围分区、列表分区、哈希分区和组合分区。</p>
+                    </li>
+                    <li>
+                        <p>支持单表百万级别的分区数，大大缩减对海量数据的检索响应时间。</p>
+                    </li>
+                    <li>
+                        <p>库内分析：可在数据库中直接进行复杂的编程和运算，显著减少数据迁移所耗费的时间。</p>
+                    </li>
+                    <li>
+                        <p>原生支持纳秒级精度时序数据。</p>
+                    </li>
+                    <li>
+                        <p>扩展了标准的SQL功能，包括面板数据处理、非同时连接、窗口连接、窗口函数、透视表、复合列等。</p>
+                    </li>
+                    <li>
+                        <p>支持同分区多表快速连接。</p>
+                    </li>
+                    <li>
+                        <p>支持数据压缩。</p>
+                    </li>
+                </ul>
+            </p>
+        </section>
+    </body>
+</topic>
