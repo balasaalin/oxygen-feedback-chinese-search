@@ -16,7 +16,7 @@
       <parameter name="webhelp.top.menu.depth" value="3"/>
     </parameters>
     <html-fragments>
-      <fragment file="fragments/feedback.xml" placeholder="webhelp.fragment.after.feedback"4/>
+      <fragment file="fragments/feedback.xml" placeholder="webhelp.fragment.after.feedback"/>
     </html-fragments>
   </webhelp>
 </publishing-template>
