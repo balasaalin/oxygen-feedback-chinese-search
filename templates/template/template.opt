@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishing-template>
+  <name>template</name>
+  <webhelp>       
+    <tags>
+      <tag type="layout">tree</tag>
+      <tag type="color">green</tag>
+      <tag type="color">light</tag>
+    </tags>
+    <resources>
+      <css file="empty.css"/>
+    </resources>
+    <parameters>
+      <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+      <parameter name="webhelp.show.main.page.toc" value="no"/>
+      <parameter name="webhelp.top.menu.depth" value="3"/>
+    </parameters>
+    <html-fragments>
+      <fragment file="fragments/feedback.xml" placeholder="webhelp.fragment.after.feedback"4/>
+    </html-fragments>
+  </webhelp>
+</publishing-template>
